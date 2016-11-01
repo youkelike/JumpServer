@@ -1,0 +1,25 @@
+
+
+bind1:
+  hostname: centos6.7-1
+  remote_users:
+    - user1:
+      username: root
+      auth_type: ssh-key
+    - user2:
+      username: root
+      auth_type: ssh-passwd
+      password: 111111
+  user_profiles:
+    - alex
+
+bind2:
+  hostname: centos6.7
+  remote_users:
+    - user2:
+      username: root
+      auth_type: ssh-passwd
+      password: 111111
+  groups:
+    - web servers
+    - db servers

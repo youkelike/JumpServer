@@ -1,0 +1,20 @@
+
+
+alex:
+  password: 123
+  #groups:
+  #  - web_servers
+  #  - db_servers
+  #bind_hosts:
+  #  - h1
+  #  - h2
+  #  - h3
+
+rain:
+  password: 111
+  #bind_hosts:
+  #  - h1
+  #  - h3
+
+
+
